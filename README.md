@@ -14,20 +14,24 @@ The only difference is i didn't want to get all the publications from database t
 
 So i figure out that it would be more convenient to paginate each model and only then, merge and sort them. that's why i built this package.
 
+This package is heavily inspired by this stackoverflow [answer](https://stackoverflow.com/a/58252907)
+
 ## Installation
 
 ### For Laravel 5.5+
 
 Require this package with composer:
+
 ```
 composer require aneeskhan47/laravel-pagination-merge
 ```
 
-The service provider will be auto-discovered. You do not need to add the provider anywhere. 
+The service provider will be auto-discovered. You do not need to add the provider anywhere.
 
 ### For Laravel 5.0 to 5.4
 
 Require this package with composer:
+
 ```
 composer require aneeskhan47/laravel-pagination-merge
 ```
@@ -98,8 +102,8 @@ If you discover any security related issues, please email kingkhan2388@gmail.com
 
 ## Credits
 
--   [Anees Khan](https://github.com/aneeskhan47)
--   [All Contributors](../../contributors)
+- [Anees Khan](https://github.com/aneeskhan47)
+- [All Contributors](../../contributors)
 
 ## License
 
@@ -108,3 +112,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 ## Laravel Package Boilerplate
 
 This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
+
