@@ -1,3 +1,4 @@
+![](https://banners.beyondco.de/Laravel%20Pagination%20Merge.png?theme=light&packageManager=composer+require&packageName=aneeskhan47%2Flaravel-pagination-merge&pattern=architect&style=style_1&description=Merge+multiple+laravel+paginate+instances&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 # Pagination Merge for Laravel 5/6/7/8/9
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
