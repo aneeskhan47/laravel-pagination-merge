@@ -87,7 +87,8 @@ class PublicationsController extends Controller
         $publications->withPath('/admin/users')
                      ->appends(['sort' => 'votes'])
                      ->withQueryString()
-                     ->fragment('users');
+                     ->fragment('users')
+                     ->setPageName('publications_page');
 
         return view('publications.index', compact('publications'));
     }
