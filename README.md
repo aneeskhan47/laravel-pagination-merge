@@ -3,7 +3,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
 [![Total Downloads](https://img.shields.io/packagist/dt/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
-![GitHub Actions](https://github.com/aneeskhan47/laravel-pagination-merge/actions/workflows/main.yml/badge.svg)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/aneeskhan47/laravel-pagination-merge/run-tests?label=tests)](https://github.com/aneeskhan47/laravel-pagination-merge/actions?query=workflow%3Arun-tests+branch%3Amain)
 
 A simple laravel pagination merge package that allows you to merge multiple `->paginate()` instances.
 
