@@ -31,19 +31,20 @@ class PaginationMerge
     protected $total;
 
     /**
-     * The base path to assign to all URLs.
+     * The query string variable used to store the page.
      *
      * @var string
      */
-    protected $path = '/';
+    protected $pageName;
 
     /**
      * Merge paginator instances
      *
      * @param  mixed $paginators
+     * @param  string  $pageName
      * @return $this
      */
-    public function merge($paginators)
+    public function merge($paginators, $pageName = 'page')
     {
         $paginators = is_array($paginators) ? $paginators : func_get_args();
 
@@ -72,6 +73,7 @@ class PaginationMerge
         $this->items = $items;
         $this->perPage = $perPage;
         $this->total = $total;
+        $this->pageName = $pageName;
 
         return $this;
     }
@@ -117,6 +119,7 @@ class PaginationMerge
             LengthAwarePaginator::resolveCurrentPage(),
             [
                 'path' => LengthAwarePaginator::resolveCurrentPath(),
+                'pageName' => $this->pageName,
             ]
         );
     }
