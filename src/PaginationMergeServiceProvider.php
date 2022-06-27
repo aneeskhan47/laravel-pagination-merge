@@ -21,7 +21,7 @@ class PaginationMergeServiceProvider extends ServiceProvider
     {
         // Register the main class to use with the facade
         $this->app->singleton('laravel-pagination-merge', function () {
-            return new PaginationMerge;
+            return new PaginationMerge();
         });
     }
 }

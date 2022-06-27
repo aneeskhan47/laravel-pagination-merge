@@ -2,10 +2,10 @@
 
 namespace Aneeskhan47\PaginationMerge;
 
-use Illuminate\Support\Arr;
-use InvalidArgumentException;
-use Illuminate\Support\Collection;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Collection;
+use InvalidArgumentException;
 
 class PaginationMerge
 {
@@ -49,7 +49,7 @@ class PaginationMerge
         $paginators = is_array($paginators) ? $paginators : func_get_args();
 
         foreach ($paginators as $paginator) {
-            if (!$paginator instanceof LengthAwarePaginator) {
+            if (! $paginator instanceof LengthAwarePaginator) {
                 throw new InvalidArgumentException("Only LengthAwarePaginator may be merged.");
             }
         }
