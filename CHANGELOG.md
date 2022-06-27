@@ -10,6 +10,6 @@ All notable changes to `laravel-pagination-merge` will be documented in this fil
 
 **Full Changelog**: https://github.com/aneeskhan47/laravel-pagination-merge/compare/v1.0.0...v1.0.1
 
-## 1.0.0 - 201X-XX-XX
+## 1.0.0 - 2022-07-26
 
 - initial release
