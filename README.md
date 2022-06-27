@@ -81,7 +81,7 @@ class PublicationsController extends Controller
                                        ->get();
 
         // since get() will return \Illuminate\Pagination\LengthAwarePaginator
-        // you can continue using paginator methods like these:
+        // you can continue using paginator methods like these etc:
 
         $publications->withPath('/admin/users')
                      ->appends(['sort' => 'votes'])
