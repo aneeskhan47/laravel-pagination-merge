@@ -76,7 +76,17 @@ class PublicationsController extends Controller
         $events = Event::latest()->paginate(5);
         $posts = Post::latest()->paginate(5);
 
-        $publications = PaginationMerge::merge($events, $posts)->sortByDesc('created_at')->get();
+        $publications = PaginationMerge::merge($events, $posts)
+                                       ->sortByDesc('created_at')
+                                       ->get();
+
+        // since get() will return \Illuminate\Pagination\LengthAwarePaginator
+        // you can continue using paginator methods like these:
+
+        $publications->withPath('/admin/users')
+                     ->appends(['sort' => 'votes'])
+                     ->withQueryString()
+                     ->fragment('users');
 
         return view('publications.index', compact('publications'));
     }
