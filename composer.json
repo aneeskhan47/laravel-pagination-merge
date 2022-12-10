@@ -1,56 +1,55 @@
 {
-    "name": "aneeskhan47/laravel-pagination-merge",
-    "description": "Merge multiple laravel paginate instances",
-    "keywords": [
-        "aneeskhan47",
-        "laravel-pagination-merge"
-    ],
-    "homepage": "https://github.com/aneeskhan47/laravel-pagination-merge",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Anees Khan",
-            "email": "kingkhan2388@gmail.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.2|^8.0|^8.1",
-        "illuminate/support": "~5|^6|^7|^8|^9",
-        "illuminate/pagination": "~5|^6|^7|^8|^9"
-    },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.8",
-        "orchestra/testbench": "^3.0|^4.0|^5.0|^6.0|^7.0",
-        "phpunit/phpunit": "^8.5|^9.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Aneeskhan47\\PaginationMerge\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Aneeskhan47\\PaginationMerge\\Test\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Aneeskhan47\\PaginationMerge\\PaginationMergeServiceProvider"
-            ],
-            "aliases": {
-                "PaginationMerge": "Aneeskhan47\\PaginationMerge\\Facades\\PaginationMerge"
-            }
-        }
+  "name": "aneeskhan47/laravel-pagination-merge",
+  "description": "Merge multiple laravel paginate instances",
+  "keywords": [
+    "aneeskhan47",
+    "laravel-pagination-merge"
+  ],
+  "homepage": "https://github.com/aneeskhan47/laravel-pagination-merge",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Anees Khan",
+      "email": "kingkhan2388@gmail.com",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "php": "^7.2|^8.0|^8.1|^8.2",
+    "illuminate/support": "~5|^6|^7|^8|^9",
+    "illuminate/pagination": "~5|^6|^7|^8|^9"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.8",
+    "orchestra/testbench": "^3.0|^4.0|^5.0|^6.0|^7.0",
+    "phpunit/phpunit": "^8.5|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aneeskhan47\\PaginationMerge\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aneeskhan47\\PaginationMerge\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Aneeskhan47\\PaginationMerge\\PaginationMergeServiceProvider"
+      ],
+      "aliases": {
+        "PaginationMerge": "Aneeskhan47\\PaginationMerge\\Facades\\PaginationMerge"
+      }
+    }
+  }
 }
