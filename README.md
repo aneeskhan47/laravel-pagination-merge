@@ -1,20 +1,20 @@
 ![](https://banners.beyondco.de/Laravel%20Pagination%20Merge.png?theme=light&packageManager=composer+require&packageName=aneeskhan47%2Flaravel-pagination-merge&pattern=architect&style=style_1&description=Merge+multiple+laravel+paginate+instances&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
-# Pagination Merge for Laravel 5/6/7/8/9
+# Pagination Merge for Laravel 5/6/7/8/9/10
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
 [![Total Downloads](https://img.shields.io/packagist/dt/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/aneeskhan47/laravel-pagination-merge/run-tests?label=tests)](https://github.com/aneeskhan47/laravel-pagination-merge/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/aneeskhan47/laravel-pagination-merge/Check%20&%20fix%20styling?label=code%20style)](https://github.com/aneeskhan47/laravel-pagination-merge/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 
-A simple laravel pagination merge package that allows you to merge multiple `->paginate()` instances.
+A simple Laravel pagination merge package that allows you to merge multiple `->paginate()` instances.
 
 ### Some Background
 
-I had to deal with something like that in a project i was working on, where in one of the pages i had to display two type of publication paginated and sorted by the created_at field. In my case it was a **Post** model and an **Event** Model (hereinafter referred to as publications).
+I had to deal with something like that in a project I was working on, where in one of the pages I had to display two types of publication paginated and sorted by the created_at field. In my case, it was a **Post** model and an **Event** Model (hereinafter referred to as publications).
 
-The only difference is i didn't want to get all the publications from database then merge and sort the results, as you can imagine it would rise a performance issue if we have hundreds of publications.
+The only difference is I didn't want to get all the publications from the database and then merge and sort the results, as you can imagine it would rise a performance issue if we have hundreds of publications.
 
-So i figure out that it would be more convenient to paginate each model and only then, merge and sort them. that's why i built this package.
+So I figure out that it would be more convenient to paginate each model and only then, merge and sort them. that's why I built this package.
 
 This package is heavily inspired by this stackoverflow [answer](https://stackoverflow.com/a/58252907)
 
@@ -103,7 +103,7 @@ composer test
 
 ### Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
@@ -111,7 +111,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email kingkhan2388@gmail.com instead of using the issue tracker.
+If you discover any security-related issues, please email kingkhan2388@gmail.com instead of using the issue tracker.
 
 ## Credits
 
