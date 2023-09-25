@@ -103,6 +103,11 @@ class PublicationsController extends Controller
 composer test
 ```
 
+### Support the development
+**Do you like this package? Support it by donating**
+
+- PayPal: [Donate](https://www.paypal.com/paypalme/aneeskhan47)
+
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
@@ -127,4 +132,3 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 ## Laravel Package Boilerplate
 
 This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
-
