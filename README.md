@@ -20,7 +20,7 @@ So I figure out that it would be more convenient to paginate each model and only
 
 This package is heavily inspired by this stackoverflow [answer](https://stackoverflow.com/a/58252907)
 
-## Installation
+## ⚡️ Installation
 
 ### For Laravel 5.5+
 
@@ -58,7 +58,7 @@ Find the `aliases` key in `config/app.php` and register the PaginationMerge alia
 ]
 ```
 
-## Usage
+## 🚀 Usage
 
 ```php
 use App\Models\Post;
@@ -97,38 +97,38 @@ class PublicationsController extends Controller
 }
 ```
 
-### Testing
+## 🧪 Testing
 
 ```bash
 composer test
 ```
 
-### Support the development
+## 💰 Support the development
 **Do you like this package? Support it by donating**
 
 - PayPal: [Donate](https://www.paypal.com/paypalme/aneeskhan47)
 
-### Changelog
+## 📝 Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing
+## 🤝 Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-### Security
+## 🔒 Security
 
 If you discover any security-related issues, please email kingkhan2388@gmail.com instead of using the issue tracker.
 
-## Credits
+## 🙌 Credits
 
 - [Anees Khan](https://github.com/aneeskhan47)
 - [All Contributors](../../contributors)
 
-## License
+## 📜 License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Laravel Package Boilerplate
+## 🔧 Laravel Package Boilerplate
 
 This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
