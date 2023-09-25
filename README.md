@@ -97,16 +97,16 @@ class PublicationsController extends Controller
 }
 ```
 
+## 💰 Support the development
+**Do you like this package? Support it by donating**
+
+- PayPal: [Donate](https://www.paypal.com/paypalme/aneeskhan47)
+
 ## 🧪 Testing
 
 ```bash
 composer test
 ```
-
-## 💰 Support the development
-**Do you like this package? Support it by donating**
-
-- PayPal: [Donate](https://www.paypal.com/paypalme/aneeskhan47)
 
 ## 📝 Changelog
 
