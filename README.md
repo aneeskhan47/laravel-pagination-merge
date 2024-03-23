@@ -4,7 +4,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
 [![Total Downloads](https://img.shields.io/packagist/dt/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/aneeskhan47/laravel-pagination-merge/main.yml?branch=main&label=tests&style=flat-square)](https://github.com/aneeskhan47/laravel-pagination-merge/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/aneeskhan47/laravel-pagination-merge/php-cs-fixer.yml?label=code%20style&style=flat-square)](https://github.com/aneeskhan47/laravel-pagination-merge/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Laravel Versions](https://img.shields.io/badge/Laravel-5.x%2C%206.x%2C%207.x%2C%208.x%2C%209.x%2C%2010.x%2C%2011.x-brightgreen.svg?style=flat-square)]()
 
