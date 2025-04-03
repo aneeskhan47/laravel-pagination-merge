@@ -1,11 +1,11 @@
 ![](https://banners.beyondco.de/Laravel%20Pagination%20Merge.png?theme=light&packageManager=composer+require&packageName=aneeskhan47%2Flaravel-pagination-merge&pattern=architect&style=style_1&description=Merge+multiple+laravel+paginate+instances&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
-# Pagination Merge for Laravel 5/6/7/8/9/10/11
+# Pagination Merge for Laravel 5/6/7/8/9/10/11/12
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
 [![Total Downloads](https://img.shields.io/packagist/dt/aneeskhan47/laravel-pagination-merge.svg?style=flat-square)](https://packagist.org/packages/aneeskhan47/laravel-pagination-merge)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/aneeskhan47/laravel-pagination-merge/php-cs-fixer.yml?label=code%20style&style=flat-square)](https://github.com/aneeskhan47/laravel-pagination-merge/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Laravel Versions](https://img.shields.io/badge/Laravel-5.x%2C%206.x%2C%207.x%2C%208.x%2C%209.x%2C%2010.x%2C%2011.x-brightgreen.svg?style=flat-square)]()
+[![Laravel Versions](https://img.shields.io/badge/Laravel-5.x%2C%206.x%2C%207.x%2C%208.x%2C%209.x%2C%2010.x%2C%2011.x%2012.x-brightgreen.svg?style=flat-square)]()
 
 A simple Laravel pagination merge package that allows you to merge multiple `->paginate()` instances.
 
