@@ -47,7 +47,7 @@ class PaginationMerge
         }
 
         $total = array_reduce($paginators, function ($carry, $paginator) {
-            return $paginator->total();
+            return $carry + $paginator->total();
         }, 0);
 
         $perPage = array_reduce($paginators, function ($carry, $paginator) {
